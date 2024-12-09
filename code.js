@@ -22,14 +22,14 @@ function findDegreeSequence(graph) {
 
 // helper function to count degree of each vertex, takes degree sequence as argument 
 function countDegrees(degreeSequence) {
-    // initialize set to hold vertex degrees and their counts
+    // initialize set to hold vertex degrees and their counts (chatGPT assisted)
     let degreeCount = {};
 
     // loop over each vertex degree
     for (let i = 0; i < degreeSequence.length; i++) {
         // set degree to current vertex degree
         let degree = degreeSequence[i];
-        // if there is no vertex of that degree in degree count, add it with a starting value of 1
+        // if there is no vertex of that degree in degree count, add it with a starting value of 1 (chatGPT assisted)
         if (degreeCount[degree] == undefined) {
             degreeCount[degree] = 1;
         }
@@ -98,7 +98,7 @@ function are_isomorphic(graph1, graph2) {
         return false;
     }
 
-    // Generate an initial array of vertices in our graph
+    // Generate an initial array of vertices in our graph (chatGPT assisted)
     let vertices = Array.from({ length: graph1.length }, (_, i) => i);
     // call permutation function to get all permutations of our vertices
     let permutations = permute(vertices, 0);
