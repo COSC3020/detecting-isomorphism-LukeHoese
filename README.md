@@ -19,3 +19,5 @@ My algorithm does do repeated work if it reaches the permutation check stage. It
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+The worst case runtime for my algorithm would be when all permutations have to be checked, which I have tried to offer some avoidance of by adding helper function that eliminate certain graphs before we reach this step. Because we are using an adjacency matrix and comparing every possible connection (vertex pairing) we must perform V<sup>2</sup> compares for every permutation we check, and in our worst case we have V! permutations by nature of permutations. Therefore our worst case big $\Theta$ time complexity is $\Theta$(V! * V<sup>2</sup>)
