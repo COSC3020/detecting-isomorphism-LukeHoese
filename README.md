@@ -16,6 +16,8 @@ I originally asked chatGPT for what specifically I needed to check to determine 
 
 My algorithm does do repeated work if it reaches the permutation check stage. It checks permutations without regard to symmetry which results in repeated or unnecessary work. If this is too much extra work I can attempt to further optimize. I know it is quite inefficient I just wanted to get a finished algorithm done so I could move on to other assignments.
 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
